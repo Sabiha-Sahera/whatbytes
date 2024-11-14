@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",  // Set baseUrl to './src' for better module resolution
+    "incremental": true,
+    "skipLibCheck": true,
+    "strict": true,  // Enable strict type checking (recommended)
+    "strictNullChecks": true,  // Enforce null checks
+    "noImplicitAny": true,  // Ensure no implicit 'any' types
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,  // Ensure consistent casing for file imports
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*"],  // Include everything in 'src'
+  "exclude": ["node_modules", "dist"]  // Exclude node_modules and dist folder
+}
